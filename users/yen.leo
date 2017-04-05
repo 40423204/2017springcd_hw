@@ -54,6 +54,9 @@
 <v t="leo.20170405083758.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20170405083758.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20170405103119.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20170405103119.2"><vh>封面投影片內容</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -66,6 +69,7 @@
 <v t="leo.20170405083935.1"><vh>@edit 20170320.md</vh></v>
 <v t="leo.20170405083945.1"><vh>@edit 20170322.md</vh></v>
 <v t="leo.20170405083957.1"><vh>@edit 20170329.md</vh></v>
+<v t="leo.20170405103054.1"><vh>@edit 20170405.md</vh></v>
 <v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -201,6 +205,18 @@
 * 介紹altair的應力分析
 
 </t>
+<t tx="leo.20170405103119.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170405103119.2">#week7
+
+* </t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
