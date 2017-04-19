@@ -51,11 +51,11 @@
 <v t="leo.20170405083846.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20170405083846.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20170405083758.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20170405083758.1"><vh>封面投影片</vh>
 <v t="leo.20170405083758.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20170405103119.1" a="E"><vh>封面投影片</vh>
-<v t="leo.20170405103119.2"><vh>封面投影片內容</vh></v>
+<v t="leo.20170419083609.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20170419083609.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -69,7 +69,8 @@
 <v t="leo.20170405083935.1"><vh>@edit 20170320.md</vh></v>
 <v t="leo.20170405083945.1"><vh>@edit 20170322.md</vh></v>
 <v t="leo.20170405083957.1"><vh>@edit 20170329.md</vh></v>
-<v t="leo.20170405103054.1"><vh>@edit 20170405.md</vh></v>
+<v t="leo.20170419083632.1"><vh>@edit 20170405.md</vh></v>
+<v t="leo.20170419083658.1"><vh>@edit 20170419.md</vh></v>
 <v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -205,7 +206,7 @@
 * 介紹altair的應力分析
 
 </t>
-<t tx="leo.20170405103119.1">&lt;section data-markdown&gt;
+<t tx="leo.20170419083609.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -214,9 +215,11 @@
 
 						
 </t>
-<t tx="leo.20170405103119.2">#week7
+<t tx="leo.20170419083609.2">#week7
 
-* </t>
+* 往fossil傳遞檔案，以及onshape參數繪圖 
+
+*[第七周file:///Y:/w3/2017springcd_hw/users/yen.leo上課內容](https://40423212.github.io/2017springcd_hw/blog/week7.html)</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
