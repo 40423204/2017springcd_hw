@@ -51,7 +51,7 @@
 <v t="leo.20170405083846.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20170405083846.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20170405083758.1"><vh>封面投影片</vh>
+<v t="leo.20170405083758.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20170405083758.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20170419083609.1" a="E"><vh>封面投影片</vh>
@@ -219,7 +219,7 @@
 
 * 往fossil傳遞檔案，以及onshape參數繪圖 
 
-*[第七周file:///Y:/w3/2017springcd_hw/users/yen.leo上課內容](https://40423212.github.io/2017springcd_hw/blog/week7.html)</t>
+*[第七周file:///Y:/w3/2017springcd_hw/users/yen.leo上課內容](https://40423204.github.io/2017springcd_hw/blog/week7.html)</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
