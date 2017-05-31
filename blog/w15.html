@@ -314,6 +314,7 @@ init_mathjax();
                 </div>
                 <p>組員協同練習
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D5Kw0LaoyPw" frameborder="0" allowfullscreen></iframe>
 <!-- 導入 Brython 標準程式庫 --></p>
 <script src="../data/Brython-3.3.1/brython.js"></script>
 
@@ -465,6 +466,12 @@ n = 36
 # 壓力角
 pa = 20
 Spur(ctx).Gear(x, y, r, n, pa, "blue")
+
+ctx.beginPath()
+ctx.fillStyle = "   #2894FF"
+ctx.font = "30px ScriptS"
+ctx.fillText("40423204 ",340,300)
+ctx.stroke()
 # 以下列出 W11 2B 與 2A 未出席人數
 data = open("./../data/w11/2b0503.txt", encoding="utf-8").read()
 data1 = open("./../data/w11/2a0504.txt", encoding="utf-8").read()
@@ -510,6 +517,11 @@ div <= "2b: " +  str(count) + "/" + str(len(student)) + "|" + "2a: " +  str(coun
                         </a>
                     </li>
                     <li class="list-group-item">
+                        <a href="./cango2dspursimulate.html">
+                            cango2DSpurSimulate
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="./week7.html">
                             week7
                         </a>
@@ -517,11 +529,6 @@ div <= "2b: " +  str(count) + "/" + str(len(student)) + "|" + "2a: " +  str(coun
                     <li class="list-group-item">
                         <a href="./week6.html">
                             week6
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./week5.html">
-                            week5
                         </a>
                     </li>
                 </ul>
