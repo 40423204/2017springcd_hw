@@ -57,9 +57,6 @@
 <v t="leo.20170419083609.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20170419083609.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20170531090656.1" a="E"><vh>封面投影片</vh>
-<v t="leo.20170531090656.2"><vh>封面投影片內容</vh></v>
-</v>
 <v t="leo.20170531084110.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20170531084110.2"><vh>封面投影片內容</vh></v>
 </v>
@@ -76,7 +73,6 @@
 <v t="leo.20170405083945.1"><vh>@edit 20170322.md</vh></v>
 <v t="leo.20170405083957.1"><vh>@edit 20170329.md</vh></v>
 <v t="leo.20170419083632.1"><vh>@edit 20170405.md</vh></v>
-<v t="leo.20170419083658.1"><vh>@edit 20170419.md</vh></v>
 <v t="leo.20170531083916.1"><vh>@edit 20170531.md</vh></v>
 <v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
@@ -249,20 +245,6 @@
 4. 請依照上述規劃, 在 Onshape 完成相同齒輪組的囓合協同繪圖.
 
 5. 各組員與組員請同時用 Youtube 與 vimeo, 紀錄上述各階段程式編寫與繪圖配置的 mp4 影片檔案, 標題為"協同產品設計實習第十五週練習".</t>
-<t tx="leo.20170531090656.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20170531090656.2">#week8
-
- 期中考
-
-</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
