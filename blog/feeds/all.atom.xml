@@ -1,93 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-05T11:00:00+08:00</updated><entry><title>test</title><link href="./test.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-04-05:./test.html</id><summary type="html">&lt;p&gt;&lt;link href="./../data/madeleine/src/css/Madeleine.css" rel="stylesheet"&gt;
-&lt;script src="./../data/madeleine/src/lib/stats.js"&gt;&lt;/script&gt;
-&lt;script src="./../data/madeleine/src/lib/detector.js"&gt;&lt;/script&gt;
-&lt;script src="./../data/madeleine/src/lib/three.min.js"&gt;&lt;/script&gt;
-&lt;script src="./../data/madeleine/src/Madeleine.js"&gt;&lt;/script&gt;&lt;/p&gt;
-&lt;div id="target" class="madeleine"&gt;&lt;/div&gt;
-
-&lt;script&gt;
-window.onload = function(){
-    var madeleine = new Madeleine({
-      target: 'target', // target div id
-      data: './../data/Assembly1.stl', // data path
-      path: './../data/madeleine/src/' // path to source directory from current html file
-    });
-}; 
-&lt;/script&gt;
-
-&lt;!-- 導入 Brython 標準程式庫 --&gt;
-
-&lt;script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
-&lt;/script&gt;
-
-&lt;!-- 啟動 Brython --&gt;
-
-&lt;script&gt;
-window.onload=function(){
-brython(1);
-}
-&lt;/script&gt;
-
-&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
-
-&lt;canvas id="fourbar" width="800" height="600"&gt;&lt;/canvas&gt;
-
-&lt;div id="container1"&gt;&lt;/div&gt;
-
-&lt;script type="text/python3"&gt;
-from browser import document as doc
-from browser import html
-import math
-# 準備繪圖畫布
-canvas = doc["fourbar"]
-container1 = doc['container1']
-ctx = canvas.getContext("2d")
-
-fourbar_data = open("./../data/midterm1.csv").read()
-fourbar_list = fourbar_data.splitlines()
-fourbar2_data = open("./../data/midterm2.csv").read()
-fourbar2_list = fourbar2_data.splitlines()
-#container1 &lt;= fourbar_list[0]
-# 以下可以利用 ctx 物件進行畫圖
-# 先畫一條直線
-ctx.beginPath()
-# 設定線的寬度為 1 個單位
-ctx.lineWidth = 1
-# 利用 transform 將 y 座標反轉, 且 offset canvas.height
-# (X scale, X skew, Y skew, Y scale, X offset, Y offset)
-# 配合圖形位置進行座標轉換
-ctx.transform(1, 0, 0, -1, canvas.width/2+250, canvas.height/2+100)
-# 畫出 x 與 y 座標線
-# 各座標值放大 8 倍
-ratio = 4
-ctx.moveTo(0, 0)
-ctx.lineTo(-30*ratio, 0)
-start_point = fourbar_list[0].split(",")
-ctx.moveTo(float(start_point[0])*ratio, float(start_point[1])*ratio)
-count = 0
-for data in fourbar_list[1:]:
-    point = data.split(",")
-    #count = count + 1
-    #container1 &lt;= str(count) + ":" + point[0] + "," + point[1]
-    #container1 &lt;= html.BR()
-    ctx.lineTo(float(point[0])*ratio, float(point[1])*ratio)
-
-    ctx.strokeStyle = "red"
-
-for data in fourbar2_list[1:]:
-    point = data.split(",")
-    #count = count + 1
-    #container1 &lt;= str(count) + ":" + point[0] + "," + point[1]
-    #container1 &lt;= html.BR()
-    ctx.lineTo(float(point[0])*ratio, float(point[1])*ratio)
-# 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
-ctx.strokeStyle = "blue"
-# 實際執行畫線
-ctx.stroke()
-ctx.closePath()
-
-&lt;/script&gt;</summary><category term="w8"></category></entry><entry><title>week7</title><link href="./week7.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-04-05:./week7.html</id><summary type="html">&lt;p&gt;往fossil傳遞檔案，以及onshape參數繪圖
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-31T08:40:00+08:00</updated><entry><title>test</title><link href="./test.html" rel="alternate"></link><published>2017-05-31T08:40:00+08:00</published><updated>2017-05-31T08:40:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-05-31:./test.html</id><summary type="html">&lt;p&gt;組員協同練習:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;請以 W15 練習為網誌標題, 800x600 為畫布大小, 在畫布正中央畫一個半徑為 250 畫素, 壓力角 20, 齒數為 36 齒的漸開線正齒輪輪廓.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;完成後, 請在正齒輪中央寫上自己的學號, 並建立第二個 800x600 的畫布, 但只畫出只有上半齒形輪廓的正齒輪, 且半齒輪廓下方水平線以紅色線繪製, 且在齒輪下方以藍色字元寫上自己的學號.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;請各學員在各自 github 倉儲中的 data/py 目錄中, 編寫一個可以採圓心座標, 節圓半徑, 齒數, 壓力角與定位角度作為輸入的齒輪程式函式, 交由組長從各組員的 submodule 設定中呼叫導入, 以便在各分組的網頁中完成一個畫出所有組員協同繪圖的齒輪減速組圖, 且各齒輪正中心必須寫上組員學號, 各組按照學號大小排序, 分別由最右邊齒數 16 齒開始囓合, 依序增加 2 齒, 當排至平面四齒囓合後, 第五位組員則以垂直方向向下囓合兩個齒輪後, 轉由右至左水平排列, 直至所有組員均各提供一個協同囓合用的齒輪為止.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;請依照上述規劃, 在 Onshape 完成相同齒輪組的囓合協同繪圖.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;各組員與組員請同時用 Youtube 與 vimeo, 紀錄上述各階段程式編寫與繪圖配置的 mp4 影片檔案, 標題為"協同產品設計實習第十五週練習".&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="w15"></category></entry><entry><title>week7</title><link href="./week7.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-04-05:./week7.html</id><summary type="html">&lt;p&gt;往fossil傳遞檔案，以及onshape參數繪圖
 &lt;/p&gt;
 &lt;p&gt;Part1.&lt;/p&gt;
 &lt;p&gt;全自動的 start.bat&lt;/p&gt;
