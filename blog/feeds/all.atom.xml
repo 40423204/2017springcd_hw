@@ -354,7 +354,7 @@ ctx.stroke()
 
 2D 繪圖
 &lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
-&lt;pre class="brush:python"&gt;
+&lt;pre class="brush: python"&gt;
 
 Group.h.v=00000001
 Group.type=5000
