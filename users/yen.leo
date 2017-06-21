@@ -57,8 +57,14 @@
 <v t="leo.20170419083609.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20170419083609.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20170531084110.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20170531084110.1"><vh>封面投影片</vh>
 <v t="leo.20170531084110.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20170621084108.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20170621084108.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20170621083718.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20170621083718.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -247,6 +253,47 @@
 4. 請依照上述規劃, 在 Onshape 完成相同齒輪組的囓合協同繪圖.
 
 5. 各組員與組員請同時用 Youtube 與 vimeo, 紀錄上述各階段程式編寫與繪圖配置的 mp4 影片檔案, 標題為"協同產品設計實習第十五週練習".</t>
+<t tx="leo.20170621083718.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170621083718.2">#week17
+
+1. 在各自的倉儲中, 建立一個雙足 solvepace 機構零組件, 存入 final 子目錄中
+
+2. 在各自的網誌上, 以 "W17 行走機構 2D 靜態繪圖"為標題, 以 Brython 畫出行走機構的示意圖.
+
+3. 在各自的倉儲中, 將 https://github.com/scrum-1/cdbw17 倉儲納入作為 w17 子目錄, 並設法導入其中的 script1.py 進行 axises() 繪圖函式的呼叫, 在任務 2 的圖中畫出座標軸.
+
+4. 在各自的網誌中設法動態顯示出任務 1 所完成的零組件.
+
+5. 將任務 1 所完成的行走機構匯入 V-rep, 並設法模擬雙足機構作動過程.
+
+6. 請在網誌中, 以"期末分組專題"為標題, 說明在分組行走機構模擬與實作過程中所扮演的角色, 並說明所負責完成的任務.
+
+7. 各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報.</t>
+<t tx="leo.20170621084108.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170621084108.2">#week16
+
+
+協同產品設計課程期末考週將安排請每位同學上台簡報, 每人 3 分鐘, 主要說明自我評分與評分依據.
+
+完成 cdb1 主機設定: nginx - http://cdb1.kmol.info fossil scm - https://cdb1.kmol.info (採純 IPv6 設定)
+
+將 github 上的 2017springcd 倉儲資料送到 cdb1 主機中的 /home/cdb1/2017springcd 目錄, 然後修改 /etc/nginx/sites-available 目錄下的 default, 讓 root 指向 /home/cdb1/2017springcd, 得到 http://cdb1.kmol.info (server 採 IPv6 設定)</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
