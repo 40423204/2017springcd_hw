@@ -54,10 +54,16 @@
 <v t="leo.20170405083758.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20170405083758.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20170419083609.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20170419083609.1"><vh>封面投影片</vh>
 <v t="leo.20170419083609.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20170531084110.1"><vh>封面投影片</vh>
+<v t="leo.20170621084622.1"><vh>封面投影片</vh>
+<v t="leo.20170621084622.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20170621084737.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20170621084737.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20170531084110.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20170531084110.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20170621084108.1" a="E"><vh>封面投影片</vh>
@@ -294,6 +300,35 @@
 完成 cdb1 主機設定: nginx - http://cdb1.kmol.info fossil scm - https://cdb1.kmol.info (採純 IPv6 設定)
 
 將 github 上的 2017springcd 倉儲資料送到 cdb1 主機中的 /home/cdb1/2017springcd 目錄, 然後修改 /etc/nginx/sites-available 目錄下的 default, 讓 root 指向 /home/cdb1/2017springcd, 得到 http://cdb1.kmol.info (server 採 IPv6 設定)</t>
+<t tx="leo.20170621084622.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170621084622.2">#week9
+
+ 期中考</t>
+<t tx="leo.20170621084737.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170621084737.2">#week10
+
+W10 任務一: 四連桿運動方程式推導, 已知四連桿馬達位置為 A, 連桿一端點為 C, 連桿二端點為 D, 連桿三的固定點為 B, 且由 CD 桿聯合組成的三角形端點為 E, 若已知 A 與 B 點座標, 以及 AC, CD, CB, CE, DE 等桿的尺寸, 當 AC 桿從水平位置逆時針轉動 60 度時, 求各關鍵點的座標位置.
+
+W10 任務二: 請各組透過各種模擬與驗證方法, 說明期中驗證三的連桿機構, 是否可以直線行走?
+
+W10 任務三: 請各組參考 http://www.daerospace.com/MechanicalSystems/FourBarLinkageDesc.php 中的 Figure 2, 該如何協同設計一個能讓 E 點直線上下移動的四連桿機構?
+</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
