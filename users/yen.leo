@@ -54,14 +54,20 @@
 <v t="leo.20170405083758.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20170405083758.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20170419083609.1"><vh>封面投影片</vh>
+<v t="leo.20170419083609.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20170419083609.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20170621084622.1"><vh>封面投影片</vh>
+<v t="leo.20170621084622.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20170621084622.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20170621084737.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20170621084737.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20170625121707.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20170625121707.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20170625121752.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20170625121752.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20170531084110.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20170531084110.2"><vh>封面投影片內容</vh></v>
@@ -330,6 +336,71 @@ W10 任務一: 四連桿運動方程式推導, 已知四連桿馬達位置為 A,
 W10 任務二: 請各組透過各種模擬與驗證方法, 說明期中驗證三的連桿機構, 是否可以直線行走?
 
 W10 任務三: 請各組參考 http://www.daerospace.com/MechanicalSystems/FourBarLinkageDesc.php 中的 Figure 2, 該如何協同設計一個能讓 E 點直線上下移動的四連桿機構?
+</t>
+<t tx="leo.20170625121707.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170625121707.2">#week12
+
+本週起各組將進行期末協同實習專案規劃與執行, 請各組在上課時段準備以 oral presentation、text presentation、theoretical presentation 逐步朝期末考週 physical presentation 的目標邁進.
+
+oral presentation: 口語說明進度, 規劃細節, 分工情形與問題討論等
+
+text presentation: 以 github pages 中的 blog 與 Fossil SCM 倉儲 wiki 紀錄每週專題執行情形, 並利用 github 與 Fossil SCM 倉儲管理所衍生的檔案.
+
+theoretical presentation: 利用 Solvespace、OnShape、V-rep 與 Brython 進行各種系統評估模擬
+
+physical presentation: 在期末考週必須完成實體模型製作, 並以 video 影片展示各階段的準備工作與執行結果.
+
+為何需要減速機?
+
+何謂漸開線?
+
+如何畫漸開線正齒輪輪廓?
+
+如何模擬 2D 正齒輪組囓合？
+
+如何模擬 3D 正齒輪組囓合？
+
+如何將齒輪減速機構納入四足行走機構?
+
+如何以 2D 動畫模擬齒輪囓合傳動?
+
+如何以 3D 動畫模擬齒輪囓合傳動?
+
+如何模擬四足機構行走?
+
+如何列印齒輪組零件?
+
+如何列印連桿機構?
+
+如何組立齒輪組與行走機構?
+
+如何控制馬達?
+
+http://www.engineering.com/DesignSoftware/DesignSoftwareArticles/ArticleID/14856/One-Company-Needs-to-Buy-OnshapeHeres-Why.aspx
+
+3個正齒輪固定齒數囓合繪圖
+
+寫成 Fossil SCM 網頁互動式</t>
+<t tx="leo.20170625121752.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170625121752.2">#week13
+
+各班給兩台實體電腦, 從 Ubuntu 16.04 裝起, 配置正齒輪齒面寬輔助設計程式, 然後設法延伸此網際輔助設計程式, 配置 V-rep、Leo Editor、Fossil SCM server 以及 Nginx 加上以 uwsgi 配置 Python3 網際程式等系統. - 由 WCM 課程學員負責配置好硬體與操作系統, 然後逐步放入網際內容管理系統後, 分別為協同產品設計實習各學員建立帳號, 然後試著完成上述各系統與伺服器的建立.
 </t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
