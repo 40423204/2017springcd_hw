@@ -1339,24 +1339,7 @@ Constraint.other2=0
 Constraint.reference=0
 AddConstraint
 
-&lt;/pre&gt;</summary><category term="spur2"></category></entry><entry><title>test</title><link href="./test.html" rel="alternate"></link><published>2017-05-31T08:40:00+08:00</published><updated>2017-05-31T08:40:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-05-31:./test.html</id><summary type="html">&lt;p&gt;組員協同練習:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;請以 W15 練習為網誌標題, 800x600 為畫布大小, 在畫布正中央畫一個半徑為 250 畫素, 壓力角 20, 齒數為 36 齒的漸開線正齒輪輪廓.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;完成後, 請在正齒輪中央寫上自己的學號, 並建立第二個 800x600 的畫布, 但只畫出只有上半齒形輪廓的正齒輪, 且半齒輪廓下方水平線以紅色線繪製, 且在齒輪下方以藍色字元寫上自己的學號.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;請各學員在各自 github 倉儲中的 data/py 目錄中, 編寫一個可以採圓心座標, 節圓半徑, 齒數, 壓力角與定位角度作為輸入的齒輪程式函式, 交由組長從各組員的 submodule 設定中呼叫導入, 以便在各分組的網頁中完成一個畫出所有組員協同繪圖的齒輪減速組圖, 且各齒輪正中心必須寫上組員學號, 各組按照學號大小排序, 分別由最右邊齒數 16 齒開始囓合, 依序增加 2 齒, 當排至平面四齒囓合後, 第五位組員則以垂直方向向下囓合兩個齒輪後, 轉由右至左水平排列, 直至所有組員均各提供一個協同囓合用的齒輪為止.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;請依照上述規劃, 在 Onshape 完成相同齒輪組的囓合協同繪圖.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;各組員與組員請同時用 Youtube 與 vimeo, 紀錄上述各階段程式編寫與繪圖配置的 mp4 影片檔案, 標題為"協同產品設計實習第十五週練習".&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="w15"></category></entry><entry><title>cango2DSpurSimulate</title><link href="./cango2dspursimulate.html" rel="alternate"></link><published>2017-05-16T11:00:00+08:00</published><updated>2017-05-16T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-05-16:./cango2dspursimulate.html</id><summary type="html">&lt;p&gt;正齒輪2d模擬
+&lt;/pre&gt;</summary><category term="spur2"></category></entry><entry><title>cango2DSpurSimulate</title><link href="./cango2dspursimulate.html" rel="alternate"></link><published>2017-05-16T11:00:00+08:00</published><updated>2017-05-16T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-05-16:./cango2dspursimulate.html</id><summary type="html">&lt;p&gt;正齒輪2d模擬
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
 &lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
@@ -2143,7 +2126,9 @@ document['tux'].bind('mouseleave', hoverout)
 
 &lt;p&gt;Other SVG library: &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/duopixel/Method-Draw"&gt;https://github.com/duopixel/Method-Draw&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/mozman/svgwrite"&gt;https://github.com/mozman/svgwrite&lt;/a&gt;&lt;/p&gt;</summary><category term="w11"></category></entry><entry><title>week7</title><link href="./week7.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-04-05:./week7.html</id><summary type="html">&lt;p&gt;往fossil傳遞檔案，以及onshape參數繪圖
+&lt;p&gt;&lt;a href="https://github.com/mozman/svgwrite"&gt;https://github.com/mozman/svgwrite&lt;/a&gt;&lt;/p&gt;</summary><category term="w11"></category></entry><entry><title>week9</title><link href="./week9.html" rel="alternate"></link><published>2017-04-19T11:00:00+08:00</published><updated>2017-04-19T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-04-19:./week9.html</id><summary type="html">&lt;p&gt;每組每個人繪製一四連桿機構並抓點
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/klcUq8RxO1c" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="w7"></category></entry><entry><title>week7</title><link href="./week7.html" rel="alternate"></link><published>2017-04-05T11:00:00+08:00</published><updated>2017-04-05T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2017-04-05:./week7.html</id><summary type="html">&lt;p&gt;往fossil傳遞檔案，以及onshape參數繪圖
 &lt;/p&gt;
 &lt;p&gt;Part1.&lt;/p&gt;
 &lt;p&gt;全自動的 start.bat&lt;/p&gt;
